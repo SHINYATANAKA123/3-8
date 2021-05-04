@@ -29,7 +29,7 @@ class BooksController < ApplicationController
     flash[:complete] = "Book was successfully created."
     redirect_to book_path(@book.id)
   else
-   @book = Book.all
+   @books = Book.all
    render :edit
   end  
   end
