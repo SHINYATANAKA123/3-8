@@ -13,3 +13,92 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;;
+ }
+clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.top{
+  font-size: 26px;
+  margin: 25px 35px 5px;
+  font-weight: bold
+}
+.start, .top-text {
+  font-size: 13px;
+  margin: 0px 65px;
+  line-height: 3;
+  color: black;
+}
+.index-main {
+  margin-left: 35px;
+  font-size: 13px;
+}
+.form-title, .edit-body {
+  font-size: 13px;
+  margin-top: 10px;
+}
+.form-body {
+  font-size: 13px;
+  margin-top: 10px;
+}
+.flash {
+  font-size: 13px;
+  margin-top: 30px;
+  margin-left: 60px;
+  color: #007B50;
+}
+.upload {
+  margin: 10px 0;
+}
+.show-main {
+  font-size: 13px;
+  margin: 30px 30px 0px;
+  line-height: 3;
+}
+.show-table {
+  margin: 0px 30px;
+}
+.menu {
+  font-size: 13px;
+  display: inline-block;
+  text-decoration: underline;
+}
+.edit-main {
+  margin: 30px 30px 0px;
+}
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+li {
+  font-size: 12px;
+  list-style: square;
+  margin-left: 60px;
+}
+.error h3{
+  width: 446px;
+  text-align: left;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 12px;
+  margin-bottom: 30px;
+  background-color: #c00;
+  color: #fff;
+}
+.error {
+  width: 450px;
+  border: 2px solid red;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  background-color: #f0f0f0;
+}
+
+.Editlink {
+    color: black;
+}
